@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Book</title>
+    <link rel="stylesheet" href="ContactBook.css">
+
+</head>
+
+<body>
+    <main>
+        <h1>Contacts</h1>
+        <input type="text" id="searchBar" placeholder="&#128269; Search Name, Number, or Address">
+        <br>
+        <br>
+        <div class="addContactButton">
+            <button id='addButton'>&plus; Add<br>Contact</button>
+        </div>
+        <div class="inputInfo">
+            <input type="text" placeholder="Enter First and Last Name" id="nameInput" class='inputBar'>
+            <br>
+            <input type="text" placeholder="Enter Phone Number" id="phoneNumberInput" class='inputBar'>
+            <br>
+            <input type="text" placeholder="Enter Address" id="addressInput" class='inputBar'>
+
+        </div>
+        <hr id='seperator'>
+
+        <div id="contactsList">
+
+        </div>
+    </main>
+    <script src="jquery-3.6.0.js"></script>
+    <script src="ContactBookV3.js"></script>
+</body>
+
+</html>
